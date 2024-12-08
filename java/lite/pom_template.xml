@@ -29,7 +29,7 @@
         <configuration>
           <instructions>
             <Automatic-Module-Name>com.google.protobuf</Automatic-Module-Name> <!-- Java9+ Jigsaw module name -->
-            <Bundle-DocURL>https://developers.google.com/protocol-buffers/</Bundle-DocURL>
+            <Bundle-DocURL>https://protobuf.dev</Bundle-DocURL>
             <Bundle-SymbolicName>com.google.protobuf</Bundle-SymbolicName>
             <Export-Package>com.google.protobuf;version=${project.version}</Export-Package>
             <Import-Package>sun.misc;resolution:=optional,*</Import-Package>
