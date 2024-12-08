@@ -3,7 +3,7 @@
 load("//:protobuf_version.bzl", "PROTOBUF_JAVA_VERSION")
 load("//java/osgi:kotlin_osgi.bzl", "osgi_kt_jvm_library")
 
-BUNDLE_DOC_URL = "https://developers.google.com/protocol-buffers/"
+BUNDLE_DOC_URL = "https://protobuf.dev"
 BUNDLE_LICENSE = "https://opensource.org/licenses/BSD-3-Clause"
 
 def protobuf_versioned_kt_jvm_library(
