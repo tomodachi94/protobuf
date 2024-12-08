@@ -11,7 +11,7 @@ JAVA_RELEASE_OPTS = [
     "-Xep:Java8ApiChecker:ERROR",
 ]
 
-BUNDLE_DOC_URL = "https://developers.google.com/protocol-buffers/"
+BUNDLE_DOC_URL = "https://protobuf.dev"
 BUNDLE_LICENSE = "https://opensource.org/licenses/BSD-3-Clause"
 
 def protobuf_java_export(**kwargs):
